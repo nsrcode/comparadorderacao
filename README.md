@@ -51,3 +51,17 @@ Valores aceitos: [tipo.yaml](configs/tipo.yaml)
 **_Obrigatório_**
 
 Valores aceitos: [indicação.yaml](configs/indicação.yaml)
+
+## Marca e Linha
+
+### Marca 
+
+**_Obrigatório_**
+
+Qualquer valor
+
+### Linha
+
+_Opcional_
+
+Qualquer valor

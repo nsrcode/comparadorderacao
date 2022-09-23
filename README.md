@@ -1,6 +1,6 @@
 # Introdução
 
-Este repositório armazena as rações cadastradas no site www.comparadorderacao.com.br e algumas regras de negócio. Tudo no formato [YAML](https://pt.wikipedia.org/wiki/YAML) para que entusiastas possam utilizar e contribuir para que possamos auxiliar à tutores de pets a darem a melhor alimentação para os seus bichinhos.
+Este repositório armazena as rações cadastradas no site www.comparadorderacao.com.br e algumas regras de negócio. Tudo no formato [YAML](https://pt.wikipedia.org/wiki/YAML) para facilitar a utilização e contribuição da comunidade.
 
 
 # Missão

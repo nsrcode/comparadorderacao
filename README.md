@@ -4,6 +4,8 @@ Este repositório armazena as rações cadastradas no site www.comparadorderacao
 
 Formato sugerido do arquivo YAML para cada ração:
 ```
+Nome:
+
 Data Lançamento:
 Data Descontinuação:
 
@@ -68,6 +70,15 @@ Rações/
 ```
 
 # Seções
+
+## Nome
+
+_Opcional_ 
+
+Nome da Ração.
+
+#### Dica
+* É opcional porque a partir das outras seções(Marca, Linha, Categoria, Idade e etc.)  é possível montar um nome para a ração, porém algumas tem nomes muito diferentes do que seria montado pelo automático e para esses casos, você pode especificar um nome.
 
 ## Data Descontinuação
 

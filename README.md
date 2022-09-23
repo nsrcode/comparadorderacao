@@ -454,7 +454,7 @@ Exemplo para Adultos e Idosos:
 ```
 Porção Diária:
     5kg:
-        atividade-normal: 80
+        normal: 80
     10kg:
         baixa: 100
         normal: 100

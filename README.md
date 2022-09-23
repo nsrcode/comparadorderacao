@@ -32,7 +32,7 @@ Conservantes Artificiais:
 Livre de Grãos:
 Tamanho do Grão:
 
-Energia Metabolizável em kcal/kg:
+Energia Metabolizável:
 
 Ingredientes:
 
@@ -299,15 +299,15 @@ Exemplo:
 Tamanho do Grão: 1,2
 ```
 
-## Energia Metabolizável em kcal/kg:
+## Energia Metabolizável
 
 _Opcional_
 
-Especificar a energia metabolizável. Não passar ponto ou vírgula. Evite carregar em seu sistema rações sem energia metabolizável, pois podem prejudicar no cálculo da porção diária.
+Valor em kcal/kg. Não passar ponto ou vírgula. Evite carregar em seu sistema rações sem energia metabolizável, pois podem prejudicar no cálculo da porção diária.
 
 Exemplo:
 ```
-Energia Metabolizável em kcal/kg: 4040
+Energia Metabolizável: 4040
 ```
 
 ## Ingredientes

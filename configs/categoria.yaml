@@ -1,0 +1,16 @@
+# Peso: É apenas uma classificação para auxiliar em possíveis ordenações
+
+Super Premium Natural:
+  Peso: 25
+Super Premium:
+  Peso: 15
+Premium Especial:
+  Outros Nomes:
+    - High Premium
+  Peso: 9
+Premium:
+  Peso: 7
+Normal:
+  Outros Nomes:
+    - Standard
+  Peso: 1

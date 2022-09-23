@@ -374,7 +374,7 @@ Corretos:
 
 Exemplo:
 ```
-Níves de Garantia:
+Níveis de Garantia:
     - Proteína bruta (Mín.) 230,0 g/kg
     - Extrato etéreo (Mín.) 120,0 g/kg
     - Matéria mineral (Máx.) 68,0 g/kg

@@ -1,0 +1,24 @@
+# Peso: A partir de
+# Altura: Até
+#
+# Fonte: https://www.omnicalculator.com/biology/dog-size
+
+Mini:
+  Peso: 0,1 kg
+  Altura: 30.5 cm
+
+Pequeno:
+  Peso: 5,4 kg
+  Altura: 45,7 cm
+
+Médio:
+  Peso: 10 kg
+  Altura: 63,5 cm
+
+Grande:
+  Peso: 29,9 kg
+  Altura: 76,2 cm
+
+Gigante:
+  Peso: 44,9 kg
+  Altura: 111,8 cm

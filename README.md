@@ -508,10 +508,10 @@ Tendo feito o parser, basta jogar os valores em sua tabela de equivalência.
   Vitaminas A -> Vitamina A
   Vitaminas C -> Vitamina C
   Vitaminas B6 -> Vitamina B6
-  'Transgênicos Streptomyces Viridochromogenes' -> Transgênicos
+  Transgênicos Streptomyces Viridochromogenes -> Transgênicos
   [...]
-  'Eventuais Substitutivos Farinha de Soja' -> 'Eventuais Substitutivos'
-  Corante Artificial Vermelho Alura -> 'Outros'
+  Eventuais Substitutivos Farinha de Soja -> Eventuais Substitutivos
+  Corante Artificial Vermelho Alura -> Outros
 ```
 
 Salve tanto o nome original do ingrediente e a equivalência para facilitar comparações.

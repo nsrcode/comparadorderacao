@@ -2,6 +2,46 @@
 
 Este repositório armazena as rações cadastradas no site www.comparadorderacao.com.br e algumas regras de negócio. Tudo no formato [YAML](https://pt.wikipedia.org/wiki/YAML) para facilitar a utilização e contribuição da comunidade.
 
+Formato Sugerido do arquivo YAML para cada ração:
+```
+Data Lançamento:
+Data Descontinuação:
+
+Tipo:
+Indicação:
+
+Marca:
+Linha:
+Categoria:
+
+Idade:
+Portes:
+
+Raças:
+
+Propósitos:
+
+Imagem URL:
+Site URL:
+
+Transgênicos:
+Corantes Artificiais:
+Conservantes Artificiais:
+Livre de Grãos:
+Tamanho do Grão:
+
+Energia Metabolizável em kcal/kg:
+
+Ingredientes:
+
+Enriquecimento por kg:
+
+Níveis de Garantia:
+
+Embalagens:
+
+Porção Diária:
+```
 
 # Missão
 
@@ -124,13 +164,13 @@ Propósitos:
     - Alta Perfomance
 ```
 
-## Imagem-url
+## Imagem URL
 
 **_Obrigatório_**
 
 URL em que tem foto da embalagem de ração.
 
-## Site-url
+## Site URL
 
 _Opcional_
 

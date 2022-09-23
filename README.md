@@ -45,6 +45,7 @@ Embalagens:
 Porção Diária:
 ```
 
+
 # Missão
 
 Contribuir, educar e auxiliar aos tutores de pets a escolherem uma alimentação de qualidade e barata dando uma vida mais saúdavel para os seus pets.
@@ -566,3 +567,11 @@ nome do item = todos os elementos com exceção do último e do penúltimo;
 ### Embalagens
 
 A importância de ter endereços URL das embalagens é para pesquisar o preço do produto e manter um histórico. Construir um crawler para isso ou utilizar alguma API pronta pode ser uma alternativa.
+
+
+# Doações
+
+**PIX CPF**
+```
+123.863.997-61
+```

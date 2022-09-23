@@ -62,7 +62,7 @@ Contribuir, educar e auxiliar aos tutores de pets a escolherem uma alimentação
 Rações/
 ├── Cães
 │   └── Marca e Linha
-│       └── $Tipo$ $Marca$ (opcional)$Linha$ $Categoria$ para $Indicação$ (opcional)$Raças$ (opcional)$Propósitos$ (opcional)$Data Descontinuada$.yaml
+│       └── $Tipo$ $Marca$ (opcional)$Linha$ $Categoria$ para $Indicação$ (opcional)$Raças$ $Idade$ $Portes$ (opcional)$Propósitos$ (opcional)$Data Descontinuada$.yaml
 └── Gatos
 ...
 ```

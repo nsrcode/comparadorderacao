@@ -22,7 +22,7 @@ Contribuir, educar e auxiliar aos tutores de pets a escolherem uma alimentação
 Rações/
 ├── Cães
 │   └── Marca e Linha
-│       └── $Tipo$ $Marca$ $(opcional)Linha$ para $Indicação$ (opcional)$Data Descontinuada$.yaml
+│       └── $Tipo$ $Marca$ (opcional)$Linha$ para $Indicação$ (opcional)$Raças$ (opcional)$Propósitos$ (opcional)$Data Descontinuada$.yaml
 └── Gatos
 ...
 ```
@@ -100,5 +100,20 @@ Exemplo:
 Raças:
   - Dog Alemão
 ```
-
 Valores aceitos: [raças.yaml](configs/raças.yaml)
+
+# Propósitos
+
+_Opcional_
+
+Valores aceitos: [propósitos.yaml](configs/propósitos.yaml)
+
+Exemplo:
+
+```
+Propósitos:
+  - Obsedidade
+  - Tratamento Renal
+  - Tratamento Alérgico
+  - Alta Perfomance
+```

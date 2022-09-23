@@ -1,11 +1,11 @@
 # Introdução
 
-Este repositório armazena as rações cadastradas no site www.comparadorderacao.com.br e algumas regras de negócio. Tudo no formato YAML(https://en.wikipedia.org/wiki/YAML) para que entusiastas possam utilizar e contribuir para que possamos auxiliar à tutores de pets a darem a melhor alimentação para os seus bichinhos.
+Este repositório armazena as rações cadastradas no site www.comparadorderacao.com.br e algumas regras de negócio. Tudo no formato [YAML](https://pt.wikipedia.org/wiki/YAML) para que entusiastas possam utilizar e contribuir para que possamos auxiliar à tutores de pets a darem a melhor alimentação para os seus bichinhos.
 
 
 # Missão
 
-Contribuir, Educar e auxiliar aos tutores de pets a escolherem uma alimentação de qualidade e barata dando uma vida mais saúdavel para os seus pets.
+Contribuir, educar e auxiliar aos tutores de pets a escolherem uma alimentação de qualidade e barata dando uma vida mais saúdavel para os seus pets.
 
 
 # Aviso
@@ -14,6 +14,7 @@ Contribuir, Educar e auxiliar aos tutores de pets a escolherem uma alimentação
 - Siga sempre as instruções indicadas na embalagem da ração;
 - Pesquise o preço em pet shops da sua região antes de comprar pela internet;
 - Não queremos fazer propaganda de produto ou fornecedor;
+
 
 # Estrutura de diretórios e nomenclatura sugerida
 

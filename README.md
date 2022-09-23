@@ -26,6 +26,8 @@ Propósitos:
 Imagem URL:
 Site URL:
 
+Sabores:
+
 Transgênicos:
 Corantes Artificiais:
 Conservantes Artificiais:
@@ -235,6 +237,19 @@ Exemplo:
 ```
 Site URL: https://www.granvitapet.com.br/produto/quatree-supreme-adultos-racas-medias-e-grandes/cao
 ```
+
+## Sabores
+
+_Opcional_
+
+Exemplo:
+```
+Sabores:
+  - Carne
+  - Frango
+  - Cereais
+```
+Valores aceitos: [sabores.yaml](configs/sabores.yaml)
 
 ## Transgênicos
 

@@ -72,3 +72,20 @@ Qualquer valor
 **_Obrigatório_**
 
 Valores aceitos: [idade.yaml](configs/idade.yaml)
+
+# Portes
+
+**_Obrigatório_**
+
+Uma ração pode ser destinada a vários portes.
+
+Exemplo:
+```
+portes:
+  - Médio
+  - Grande
+  - Gigante
+```
+
+Valores aceitos: [portes.yaml](configs/portes.yaml)
+

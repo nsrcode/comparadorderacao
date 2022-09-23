@@ -112,8 +112,8 @@ Exemplo:
 
 ```
 Propósitos:
-  - Obsedidade
+  - Light
   - Tratamento Renal
-  - Tratamento Alérgico
+  - Hipoalergênica
   - Alta Perfomance
 ```

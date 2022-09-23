@@ -22,7 +22,7 @@ Contribuir, educar e auxiliar aos tutores de pets a escolherem uma alimentação
 Rações/
 ├── Cães
 │   └── Marca e Linha
-│       └── Marca e Linha - Tipo - Indicação - (opcional) Data Descontinuada.yaml
+│       └── $Tipo$ $Marca$ $(opcional)Linha$ para $Indicação$ (opcional)$Data Descontinuada$.yaml
 └── Gatos
 ...
 ```
@@ -81,7 +81,7 @@ Uma ração pode ser destinada a vários portes.
 
 Exemplo:
 ```
-portes:
+Portes:
   - Médio
   - Grande
   - Gigante
@@ -89,3 +89,16 @@ portes:
 
 Valores aceitos: [portes.yaml](configs/portes.yaml)
 
+# Raças
+
+_Opcional_
+
+Apenas para rações destinadas a raças específicas.
+
+Exemplo:
+```
+Raças:
+  - Dog Alemão
+```
+
+Valores aceitos: [raças.yaml](configs/raças.yaml)

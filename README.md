@@ -66,3 +66,9 @@ Qualquer valor
 _Opcional_
 
 Qualquer valor
+
+# Idade
+
+**_Obrigatório_**
+
+Valores aceitos: [idade.yaml](configs/idade.yaml)

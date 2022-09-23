@@ -2,7 +2,7 @@
 
 Este repositório armazena as rações cadastradas no site www.comparadorderacao.com.br e algumas regras de negócio. Tudo no formato [YAML](https://pt.wikipedia.org/wiki/YAML) para facilitar a utilização e contribuição da comunidade.
 
-Formato Sugerido do arquivo YAML para cada ração:
+Formato sugerido do arquivo YAML para cada ração:
 ```
 Data Lançamento:
 Data Descontinuação:
@@ -73,13 +73,23 @@ Rações/
 
 _Opcional_
 
-dd/mm/aaaa
+Formato: dd/mm/aaaa
+
+Exemplo:
+```
+Data Descontinuação: 01/01/2022
+```
 
 ## Data Lançamento
 
 _Opcional_
 
-dd/mm/aaaa
+Formato: dd/mm/aaaa
+
+Exemplo:
+```
+Data Lançamento: 01/01/2022
+```
 
 ## Tipo
 
@@ -87,11 +97,21 @@ dd/mm/aaaa
 
 Valores aceitos: [tipo.yaml](configs/tipo.yaml)
 
+Exemplo:
+```
+Tipo: Seca
+```
+
 ## Indicação
 
 **_Obrigatório_**
 
 Valores aceitos: [indicação.yaml](configs/indicação.yaml)
+
+Exemplo:
+```
+Tipo: Cães
+```
 
 ## Marca e Linha
 
@@ -101,11 +121,21 @@ Valores aceitos: [indicação.yaml](configs/indicação.yaml)
 
 Qualquer valor
 
+Exemplo:
+```
+Marca: Quatree
+```
+
 ### Linha
 
 _Opcional_
 
 Qualquer valor
+
+Exemplo:
+```
+Linha: Supreme
+```
 
 ## Categoria
 
@@ -113,11 +143,21 @@ Qualquer valor
 
 Valores aceitos: [categoria.yaml](configs/categoria.yaml)
 
+Exemplo:
+```
+Categoria: Super Premium
+```
+
 ## Idade
 
 **_Obrigatório_**
 
 Valores aceitos: [idade.yaml](configs/idade.yaml)
+
+Exemplo:
+```
+Idade: Idoso
+```
 
 ## Portes
 
@@ -170,11 +210,21 @@ Propósitos:
 
 URL em que tem foto da embalagem de ração.
 
+Exemplo:
+```
+Imagem URL: https://www.comparadorderacao.com.br/storage/food/e367876c7871f2925d6cf4e0dd0c0b5c91e53fbf.jpg
+```
+
 ## Site URL
 
 _Opcional_
 
 URL para acessar diretamente a página oficial da ração.
+
+Exemplo:
+```
+Site URL: https://www.granvitapet.com.br/produto/quatree-supreme-adultos-racas-medias-e-grandes/cao
+```
 
 ## Transgênicos
 
@@ -184,6 +234,11 @@ Valores aceitos:
  * **sim** - Possui transgênicos em sua composição;
  * **não** - Não possui transgêncis em sua composição;
 
+Exemplo:
+```
+Transgênicos: sim
+```
+
 ## Corantes Artificiais
 
 _Opcional_
@@ -191,6 +246,11 @@ _Opcional_
 Valores aceitos:
  * **sim** - Possui Corantes Artificiais em sua composição;
  * **não** - Não possui Corantes Artificiais em sua composição;
+
+Exemplo:
+```
+Corantes Artificiais: sim
+```
 
 ## Conservantes Artificiais
 
@@ -200,6 +260,11 @@ Valores aceitos:
  * **sim** - Possui Conservantes Artificiais em sua composição;
  * **não** - Não possui Conservantes Artificiais em sua composição;
 
+Exemplo:
+```
+Conservantes Artificiais: sim
+```
+
 ## Livre de Grãos:
 
 _Opcional_
@@ -207,6 +272,11 @@ _Opcional_
 Valores aceitos:
  * **sim** - Possui grãos e cereais em sua fórmula;
  * **não** - Não possui grãos e cereais em sua fórmula;
+
+Exemplo:
+```
+Livre de Grãos: sim
+```
 
 ## Tamanho do Grão:
 
@@ -256,7 +326,7 @@ Ingredientes:
 
 #### Dicas
 * Trate as subseções **Transgênicos** e **Eventuais Substitutivos** como fossem ingredientes separados;
-* Tenha uma tabela e equivalência de todos os ingredientes caso queira comparar as rações de maneira mais correta possível. A nossa está em fase de desenvolvimento.
+* Tenha uma tabela de equivalência de todos os items caso queira comparar as rações de maneira mais correta possível. A nossa está em fase de desenvolvimento e em breve será disponibilizada.
 * Sabe programação? Leia a seção [Para Entusiastas - Ingredientes](#ingredientes-1);
 
 ## Enriquecimento por kg
@@ -276,7 +346,8 @@ Utilize vírgula para casa decimais. Não use ponto. A unidade de medida deve es
 
 Errados:
 ```
-    - Vitamina A 12.000 UI
+    - Vitamina K 800UI
+    - Vitamina A 12.000UI
     - Vitamina C 12000.00 UI
     - Vitamina B 12000UI
     - Vitamina B6 13,00 mg 100%
@@ -286,6 +357,7 @@ Errados:
 
 Corretos:
 ```
+    - Vitamina K 800 UI
     - Vitamina A 1200 UI
     - Vitamina PP 12000 UI
     - Vitamina B6 13,00 mg
@@ -293,7 +365,7 @@ Corretos:
 ```
 
 #### Dicas
-* Tenha uma tabela e equivalência de todos os ingredientes caso queira comparar as rações de maneira mais correta possível. A nossa está em fase de desenvolvimento.
+* Tenha uma tabela de equivalência de todos os items caso queira comparar as rações de maneira mais correta possível. A nossa está em fase de desenvolvimento e em breve será disponibilizada.
 * Sabe programação? Leia a seção [Para Entusiastas - Níveis de Garantia e Enriquecimento por Kg](#níveis-de-garantia-e-enriquecimento-por-kg);
 
 ## Níveis de Garantia
@@ -309,8 +381,7 @@ Níves de Garantia:
 ```
 
 #### Dicas
-* Tenha uma tabela e equivalência de todos os items caso queira comparar as rações de maneira mais correta possível. A nossa está em fase de desenvolvimento.
-* Sabe programação? Leia a seção [Para Entusiastas - Níveis de Garantia e Enriquecimento por Kg](#níveis-de-garantia-e-enriquecimento-por-kg);
+* Tenha uma tabela de equivalência de todos os items caso queira comparar as rações de maneira mais correta possível. A nossa está em fase de desenvolvimento e em breve será disponibilizada.* Sabe programação? Leia a seção [Para Entusiastas - Níveis de Garantia e Enriquecimento por Kg](#níveis-de-garantia-e-enriquecimento-por-kg);
 
 ## Embalagens
 
@@ -348,7 +419,7 @@ As atividades físicas válidas são essas:
 
 #### Dicas
 * Algumas rações consideram atividade normal como baixa ou moderada;
-* Cachorros filhotes que possuem diferenciação de porção por idade;
+* Geralmente pets filhotes sçao os que possuem uma diferenciação de porção por idade;
 
 Exemplo para Filhotes:
 ```

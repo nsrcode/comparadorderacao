@@ -422,13 +422,13 @@ Embalagens:
 Porção diária recomendada para alimentação de acordo com a peso, idade e atividade física.
 
 As atividades físicas válidas são essas:
-* atividade-baixa
-* atividade-normal
-* atividade-alta
-* atividade-intensa
+* baixa
+* normal
+* alta
+* intensa
 
 #### Dicas
-* Algumas rações consideram atividade normal como baixa ou moderada;
+* Algumas rações consideram normal como baixa ou moderada;
 * Geralmente pets filhotes sçao os que possuem uma diferenciação de porção por idade;
 
 Exemplo para Filhotes:
@@ -436,18 +436,18 @@ Exemplo para Filhotes:
 Porção Diária:
     10kg:
         3 meses:
-            atividade-normal: 100
+            normal: 100
         6 meses:
-            atividade-normal: 200
+            normal: 200
         9 meses:
-            atividade-normal: 300
+            normal: 300
     20kg:
         3 meses:
-            atividade-normal: 300
+            normal: 300
         6 meses:
-            atividade-normal: 400
+            normal: 400
         9 meses:
-            atividade-normal: 500
+            normal: 500
 ```
 
 Exemplo para Adultos e Idosos:
@@ -456,14 +456,14 @@ Porção Diária:
     5kg:
         atividade-normal: 80
     10kg:
-        atividade-baixa: 100
-        atividade-normal: 100
-        atividade-alta: 120
-        atividade-intensa: 180
+        baixa: 100
+        normal: 100
+        alta: 120
+        intensa: 180
     15kg:
-        atividade-baixa: 130
-        atividade-normal: 150
-        atividade-alta: 230
+        baixa: 130
+        normal: 150
+        alta: 230
 ```
 
 # Para Entusiastas

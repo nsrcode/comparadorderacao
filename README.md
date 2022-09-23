@@ -67,13 +67,13 @@ _Opcional_
 
 Qualquer valor
 
-# Idade
+## Idade
 
 **_Obrigatório_**
 
 Valores aceitos: [idade.yaml](configs/idade.yaml)
 
-# Portes
+## Portes
 
 **_Obrigatório_**
 
@@ -89,7 +89,7 @@ Portes:
 
 Valores aceitos: [portes.yaml](configs/portes.yaml)
 
-# Raças
+## Raças
 
 _Opcional_
 
@@ -102,7 +102,7 @@ Raças:
 ```
 Valores aceitos: [raças.yaml](configs/raças.yaml)
 
-# Propósitos
+## Propósitos
 
 _Opcional_
 
@@ -117,3 +117,9 @@ Propósitos:
   - Hipoalergênica
   - Alta Perfomance
 ```
+
+## Categoria
+
+**_Obrigatório_**
+
+Valores aceitos: [categoria.yaml](configs/categoria.yaml)

@@ -21,7 +21,7 @@ Portes:
 
 Raças:
 
-Propósitos:
+Propósito:
 
 Imagem URL:
 Site URL:
@@ -67,7 +67,7 @@ Contribuir, educar e auxiliar aos tutores de pets a escolherem uma alimentação
 Rações/
 ├── Cães
 │   └── Marca e Linha
-│       └── $Tipo$ $Marca$ (opcional)$Linha$ $Categoria$ para $Indicação$ (opcional)$Raças$ $Idade$ $Portes$ (opcional)$Propósitos$ (opcional)$Data Descontinuada$.yaml
+│       └── $Tipo$ $Marca$ (opcional)$Linha$ $Categoria$ para $Indicação$ (opcional)$Raças$ $Idade$ $Portes$ (opcional)$Propósito$ (opcional)$Data Descontinuada$.yaml
 └── Gatos
 ...
 ```

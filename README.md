@@ -66,8 +66,9 @@ Contribuir, educar e auxiliar aos tutores de pets a escolherem uma alimentação
 ```
 Rações/
 ├── Cães
-│   └── Marca e Linha
-│       └── $Tipo$ $Marca$ (opcional)$Linha$ $Categoria$ para $Indicação$ (opcional)$Raças$ $Idade$ $Portes$ (opcional)$Propósito$ (opcional)$Data Descontinuada$.yaml
+│   └── Marca
+│       └── Linha
+│           └── $Tipo$ $Marca$ (opcional)$Linha$ $Categoria$ para $Indicação$ (opcional)$Raças$ $Idade$ $Portes$ (opcional)$Propósito$ (opcional)$Data Descontinuada$.yaml
 └── Gatos
 ...
 ```
@@ -107,7 +108,7 @@ Data Lançamento: 01/01/2022
 
 **_Obrigatório_**
 
-Valores aceitos: [tipo.yaml](configs/tipo.yaml)
+Valores aceitos: [tipo.yaml](config/tipo.yaml)
 
 Exemplo:
 ```
@@ -118,7 +119,7 @@ Tipo: Seca
 
 **_Obrigatório_**
 
-Valores aceitos: [indicação.yaml](configs/indicação.yaml)
+Valores aceitos: [indicação.yaml](config/indicação.yaml)
 
 Exemplo:
 ```
@@ -153,7 +154,7 @@ Linha: Supreme
 
 **_Obrigatório_**
 
-Valores aceitos: [categoria.yaml](configs/categoria.yaml)
+Valores aceitos: [categoria.yaml](config/categoria.yaml)
 
 Exemplo:
 ```
@@ -164,7 +165,7 @@ Categoria: Super Premium
 
 **_Obrigatório_**
 
-Valores aceitos: [idade.yaml](configs/idade.yaml)
+Valores aceitos: [idade.yaml](config/idade.yaml)
 
 Exemplo:
 ```
@@ -185,7 +186,7 @@ Portes:
     - Gigante
 ```
 
-Valores aceitos: [portes.yaml](configs/portes.yaml)
+Valores aceitos: [portes.yaml](config/portes.yaml)
 
 ## Raças
 
@@ -198,13 +199,13 @@ Exemplo:
 Raças:
   - Dog Alemão
 ```
-Valores aceitos: [raças.yaml](configs/raças.yaml)
+Valores aceitos: [raças.yaml](config/raças.yaml)
 
 ## Propósito
 
 _Opcional_
 
-Valores aceitos: [propósito.yaml](configs/propósito.yaml)
+Valores aceitos: [propósito.yaml](config/propósito.yaml)
 
 Exemplo:
 
@@ -245,7 +246,7 @@ Sabores:
   - Frango
   - Cereais
 ```
-Valores aceitos: [sabores.yaml](configs/sabores.yaml)
+Valores aceitos: [sabores.yaml](config/sabores.yaml)
 
 ## Transgênicos
 
@@ -408,7 +409,7 @@ Níveis de Garantia:
 
 **_Obrigatório_**
 
-Valores aceitos: [embalagens.yaml](configs/embalagens.yaml)
+Valores aceitos: [embalagens.yaml](config/embalagens.yaml)
 
 Tamanho da embalagem e endereços de URL para obter o preço da embalagem. Apenas o tamanho da embalagem é obrigatório.
 

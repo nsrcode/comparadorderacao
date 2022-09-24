@@ -200,20 +200,16 @@ Raças:
 ```
 Valores aceitos: [raças.yaml](configs/raças.yaml)
 
-## Propósitos
+## Propósito
 
 _Opcional_
 
-Valores aceitos: [propósitos.yaml](configs/propósitos.yaml)
+Valores aceitos: [propósito.yaml](configs/propósito.yaml)
 
 Exemplo:
 
 ```
-Propósitos:
-    - Light
-    - Tratamento Renal
-    - Hipoalergênica
-    - Alta Perfomance
+Propósito: Alta Perfomance
 ```
 
 ## Imagem URL

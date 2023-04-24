@@ -6,6 +6,8 @@ Formato sugerido do arquivo YAML para cada ração:
 ```
 Nome:
 
+Descrição:
+
 Data Lançamento:
 Data Descontinuação:
 
@@ -81,6 +83,20 @@ _Opcional_
 
 #### Dica
 * É opcional porque a partir das outras seções(Marca, Linha, Categoria, Idade e etc.)  é possível montar um nome para a ração, porém algumas tem nomes muito diferentes do que seria montado pelo automático e para esses casos, você pode especificar um nome.
+
+## Descrição
+
+_Opcional_
+
+Exemplo:
+```
+Descrição: |
+    Ração feita especialmente para o seu cão.
+    
+    Natural:
+    - Sem grãos transgênicos;
+    - Sem conservantes artificiais;
+```
 
 ## Data Descontinuação
 

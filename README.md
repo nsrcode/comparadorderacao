@@ -320,11 +320,11 @@ Livre de Grãos: sim
 
 _Opcional_
 
-Medir o grão e especificar em **cm(centímetro)** a maior medida encontrada. Não usar ponto, use vírgula caso precise.
+Medir o grão e especificar em **mm(milímetro)** a maior medida encontrada. Não usar ponto, use vírgula caso precise.
 
 Exemplo:
 ```
-Tamanho do Grão: 1,2
+Tamanho do Grão: 16
 ```
 
 ## Energia Metabolizável
